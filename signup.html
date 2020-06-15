@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body>
+	<h1>sign up page</h1>
+	<p>Please Note: First Name, Last Name, Email and Password is required.</p>
+	<form>
+		First name:
+		<input type="text" name="First Name" placeholder="First Name" required="Fill out this field">
+		<br>
+		Last Name:
+		<input type="text" name="Last Name" placeholder="Last Name">
+		<br><br>
+		Email:
+		<input type="text" name="Email" placeholder="@example.com">
+		<br>
+		Password:
+		<input type="Password" name="Password" placeholder="*******">
+		<br><br>
+		<p>Are you 18+?</p>
+		<input type="radio" name="18+" value="Yes" checked>Yes
+		<input type="radio" name="18+" value="Yes" checked>No
+		<br><br>
+		<article>Do you have any credit or payapal card?</article>
+		<select name="select">
+			<option value="Credit Card" selected>Credit Card</option>
+			<option value="payapal Card" selected>Payapl Card</option>
+			
+			
+			
+		</select>
+		<br><br>
+		Enter your dob(after 1980-01-01):
+		<input type="date" name="bday" max="2020-01-01"><br><br>
+		<br>
+		Message us:<br>
+		<textarea name="text" rows="10" cols="10"></textarea><br><br>
+		<br>
+		<input type="submit" name="submit" onclick="alert('submitted')">
+		<input type="reset" name="reset">	
+
+
+	</form>
+
+
+</body>
+</html>

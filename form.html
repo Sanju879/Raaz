@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h1>Form</h1>
+	<form>
+		First name:<br>
+		<input type="text" name="Firstname">
+		<br>
+		
+		Last name:<br>
+		<input type="text" name="Lastname">
+		<br>
+
+		Password: <br>
+		<input type="Password" name="Password"><br>
+
+		Gender:<br>
+		<input type="radio" name="Gender" value="male" checked>Male<br>
+		<input type="radio" name="Gender" value="female" checked>female<br>
+		<input type="radio" name="Gender" value="others" checked>others<br>
+		<br>
+
+		<fieldset><legend>this is selection</legend>
+
+		choose your fav. food:<br>
+		<input type="checkbox" name="food" value="Rice">Rice<br>
+		<input type="checkbox" name="food" value="Momo">Momo<br>
+		<input type="checkbox" name="food" value="Pizza">Pizza<br>
+		</fieldset>
+		<br>
+
+		slect your fev. color:
+		<input type="color" name="favcolor"><br><br>
+		Enter your dob(before 1980-01-01)
+		<input type="date" name="bday" max="2020-01-01"><br><br>
+
+		Quantity(between 1 & 5):<br>
+		<input type="number" name="Quantity" min="1" max="5"><br><br>
+
+		Time:<br>
+		<input type="Time" name="user_time"><br><br>
+		
+		message us:<br>
+		<textarea name="text" rows="10" cols="10"></textarea><br><br>
+		<br>
+
+
+
+		<input type="button" onclick="alert('hello')" value="click me!">
+		<input type="submit" name="submit">
+		<input type="reset">
+	</form>
+
+</body>
+</html>
